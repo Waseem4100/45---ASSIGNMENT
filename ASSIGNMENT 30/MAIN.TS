@@ -7,13 +7,12 @@ after they log in to a website. Loop through the array, and print a greeting to 
 • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 */
 
-let username =["Waseem", "Admin", "Usman","Anus"]
+let usernames = ["Waseem", "Admin", "Usman", "Anus"];
 
-for(let i = 0; i <username.length; i++){
-if(username.includes("Admin")){
-    console.log("Hello admin, would you like to see a status report?")
-}
-else {
-    console.log(`Hello ${username[i]}, thank you for logging in again.`)
-}
+for (let i = 0; i < usernames.length; i++) {
+    if (usernames[i] === "Admin") {
+        console.log("Hello admin, would you like to see a status report?");
+    } else {
+        console.log(`Hello ${usernames[i]}, thank you for logging in again.`);
+    }
 }

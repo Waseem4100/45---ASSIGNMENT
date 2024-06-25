@@ -6,6 +6,6 @@ should be the same, but each message should be personalized with the person’s 
 let NAME : string[] = ["waseem", "anas", "taha","jawad"]
 let MASSEGE : String = " do you like to play circket"
 for(let i=0; i< NAME.length;i++){
-    console.log(`${NAME[i]}${MASSEGE}`)
+    console.log(`${NAME[i]},${MASSEGE}`)
 }
 
